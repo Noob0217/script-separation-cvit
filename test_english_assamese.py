@@ -134,15 +134,10 @@ def plot_and_save_confusion_matrix(true_labels, predictions, classes, save_path)
 # Main Execution
 def main():
      
-    TEST_DIR = '/home/pola/01_printed_document/Student1-Asim/English_Bengali/new_real_dataset/test'  #144369_18626_17_weights.pt
+    TEST_DIR = ''  #144369_18626_17_weights.pt
 
-    # TEST_DIR = './data/sr/validation/sr_validation'
-    # TEST_DIR = './data/test'
-    # MODEL_WEIGHTS_PATH = "./model_weights/combined_data/fifth_epoch_low_lr_0.001/first_epoch_low_lr_0.0001/first_epoch_low_lr_0.000001/169518_18641_0_weights.pt"  #169518_18641_2_weights.pt
-    #model_weights/combined_data/fifth_epoch_low_lr_0.001/first_epoch_low_lr_0.0001/first_epoch_low_lr_0.000001/169518_18641_0_weights.pt
-    # MODEL_WEIGHTS_PATH = "./model_weights/combined_data/two_epoch_low_lr/169518_18641_0_weights.pt"
-    # MODEL_WEIGHTS_PATH = "./model_weights/combined_data/two_epoch_low_lr/169518_18641_2_weights.pt"
-    MODEL_WEIGHTS_PATH = "/home/pola/01_printed_document/Student1-Asim/English_Bengali/model_weights/89756_13210_10_weights.pt"
+   
+    MODEL_WEIGHTS_PATH = ""
 
     directory, filename = os.path.split(MODEL_WEIGHTS_PATH)
 
